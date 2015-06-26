@@ -21,3 +21,6 @@ priceAfterDiscount = priceAfterDiscount - downPayment
 
 var z = 33
 z = 44
+
+
+var largeNumber = 1_000_000_000_000
