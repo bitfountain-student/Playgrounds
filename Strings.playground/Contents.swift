@@ -20,8 +20,9 @@ var newDoubleString = "\(doubleValue)" + "1"
 var numberString = "9"
 var numberStringToInt = numberString.toInt()
 var optionalToInt = numberStringToInt!
-optionalToInt = optionalToInt + 3
+optionalToInt += 3
 
 var doubleString = "3.9585"
 var doubleValueFromString = Double((doubleString as NSString).doubleValue)
-doubleValueFromString = doubleValueFromString + 3.85
+doubleValueFromString += 3.85
+
