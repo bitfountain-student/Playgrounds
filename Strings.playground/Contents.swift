@@ -9,20 +9,20 @@ var helloWorldString = string1 + " " + string2
 helloWorldString = helloWorldString.uppercaseString
 "hello world".uppercaseString
 
-var firstCharacter:String = "!"
+let firstCharacter:String = "!"
 helloWorldString = helloWorldString + firstCharacter
 
-var x=5
-var newString = "\(x) times " + helloWorldString
-var doubleValue = 3.5
-var newDoubleString = "\(doubleValue)" + "1"
+let x=5
+let newString = "\(x) times " + helloWorldString
+let doubleValue = 3.5
+let newDoubleString = "\(doubleValue)" + "1"
 
-var numberString = "9"
-var numberStringToInt = numberString.toInt()
+let numberString = "9"
+let numberStringToInt = numberString.toInt()
 var optionalToInt = numberStringToInt!
 optionalToInt += 3
 
-var doubleString = "3.9585"
+let doubleString = "3.9585"
 var doubleValueFromString = Double((doubleString as NSString).doubleValue)
 doubleValueFromString += 3.85
 
