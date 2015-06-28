@@ -5,13 +5,17 @@ import UIKit
 let truckSpeed = 45
 let lamboSpeed = 120
 var mySpeed:Int
-mySpeed = 80
+mySpeed = 101
+var myFriendsSpeed = 0
 
-if mySpeed < 70 {
-  println("Keep Cruising")
+if mySpeed < 70  || myFriendsSpeed >= 90 {
+  println "Keep Cruising"
+}
+else if mySpeed > 90 {
+  println "Myfriend's not on the road but i'm going fast"
 }
 else {
-  println("Slow down police ahead")
+  println "Slow down police ahead"
 }
 
 let isTelevisionOn = true
