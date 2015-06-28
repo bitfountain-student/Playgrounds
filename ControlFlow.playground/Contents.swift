@@ -9,13 +9,13 @@ mySpeed = 101
 var myFriendsSpeed = 0
 
 if mySpeed < 70  || myFriendsSpeed >= 90 {
-  println "Keep Cruising"
+  println("Keep Cruising")
 }
 else if mySpeed > 90 {
-  println "Myfriend's not on the road but i'm going fast"
+  println ("Myfriend's not on the road but i'm going fast")
 }
 else {
-  println "Slow down police ahead"
+  println ("Slow down police ahead")
 }
 
 let isTelevisionOn = true
