@@ -17,3 +17,19 @@ else {
 }
 println(tigerNames.count)
 println(emptyArray.count)
+
+let firstNameFromArray = tigerNames[0]
+let secondAgeInTigerAgesArray = tigerAges[1]
+
+for var i = 0; i < tigerNames.count; ++i {
+  let instanceFromArray = tigerNames[i]
+  println(instanceFromArray)
+}
+
+for tigerName in tigerNames {
+  println(tigerName)
+}
+
+for x in 1...5 {
+  print(x)
+}
