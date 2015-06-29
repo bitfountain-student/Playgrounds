@@ -33,3 +33,7 @@ for tigerName in tigerNames {
 for x in 1...5 {
   print(x)
 }
+
+for (index, tigerName) in enumerate(tigerNames) {
+  println("index: \(index) tigerName: \(tigerName)")
+}
