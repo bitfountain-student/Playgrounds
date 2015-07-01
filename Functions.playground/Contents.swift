@@ -25,5 +25,14 @@ func turnOffAppliance (applianceName: String, isOn: Bool) {
   }
 }
 
-turnOffAppliance("Television", true)
-turnOffAppliance("Television", false)
+func additionFunction(firstParameter:Int, secondParameter:Int) -> Int {
+  
+  let sumOfArguments = firstParameter + secondParameter
+  
+  return sumOfArguments
+}
+
+var additionAnswerOfInteger = additionFunction(2, 4)
+let finalAnswer = additionFunction(additionAnswerOfInteger, 5)
+println(finalAnswer)
+
