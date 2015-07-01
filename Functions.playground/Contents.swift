@@ -17,4 +17,13 @@ func printNumberSupplied (number: Int) {
   
 }
 
-printNumberSupplied(4)
+func turnOffAppliance (applianceName: String, isOn: Bool) {
+  if isOn {
+    println("Please turn off the \(applianceName)")
+  } else {
+    println("I actually turned the \(applianceName) off already.")
+  }
+}
+
+turnOffAppliance("Television", true)
+turnOffAppliance("Television", false)
