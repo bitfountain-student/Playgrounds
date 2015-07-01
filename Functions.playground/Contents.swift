@@ -7,6 +7,14 @@ func printHelloWorld(){
     println("Hello, Class")
   }
 
-  printHelloWorld()
-  printHelloWorld()
-  printHelloWorld()
+func printNumberSupplied (number: Int) {
+  println("The number is \(number)")
+  println("The number times three is \(number * 3)")
+  var numberTimesTwo = number * 2
+  numberTimesTwo *= 2
+  
+  
+  
+}
+
+printNumberSupplied(4)
